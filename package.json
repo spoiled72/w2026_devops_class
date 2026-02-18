@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Sample repo to learn git commands",
   "main": "index.js",
+  "homepage": "https://spoiled72.github.io/w2026_devops_class",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\"",
     "eject": "react-scripts eject"
   },
